@@ -1,7 +1,7 @@
-<h1 align="center"> Projeto Alura - Flash Cards Interativos</h1>
+<h1 align="center">Projeto Alura Books</h1>
 
 <p align="center">
-Este é um projeto desenvolvido para a plataforma Alura, focado no estudo interativo com flash cards. Apresentado por Guilherme, desenvolvedor com ampla experiência em diversas tecnologias e criador de mais de 30 cursos na Alura.<br/>
+Este é o 3º projeto desenvolvido na Formação Front End da Plataforma Alura, apresentado por Guilherme Lima, Rafaella Ballerini e Monica Hillman.<br/>
 </p>
 
 <p align="center">
@@ -18,46 +18,47 @@ Este é um projeto desenvolvido para a plataforma Alura, focado no estudo intera
 <br>
 
 <div align="center">
-  <a target="_blank" href="https://silviosnjr.github.io/PaginaWeb-DesenvolvendoUmaFerramentaInterativaDeEstudo/">
-    <img width="90%" src="img/flash-cards-preview.png" alt="Página interativa de estudo com flash cards">
-  </a>
+    <a target="_blank" href="https://robertojunnior.github.io/alura-books/">
+    <img width="90%" src="img/projeto-figma.png" alt="alura-books">
+    </a>
 </div>
 
 <br>
 
-🧑‍🚀 Este projeto faz parte do curso Alura para Escolas, onde desenvolvemos uma página interativa de estudo utilizando flash cards para facilitar o aprendizado. A plataforma foi construída com foco em boas práticas de design e desenvolvimento web, aplicando fundamentos como flexbox, JavaScript avançado e responsividade.<br>
+🧑‍🚀 Este projeto foi desenvolvido no curso "A partir do zero: HTML, CSS para projetos web", que abrange 6 módulos com um total de 51 horas de conteúdo.
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+As tecnologias utilizadas neste projeto incluem:
 
-<li> HTML
-<li> CSS (com flexbox e animações)
-<li> JavaScript (interatividade dos flash cards)
-<li> Figma para o design
-<li> Git e GitHub
+- HTML
+- CSS
+- Figma
+- Git e GitHub
 
 ## 💻 Projeto
 
-O projeto foi desenvolvido para proporcionar uma experiência de estudo mais dinâmica e interativa utilizando flash cards, um método eficaz para reforçar o aprendizado de conteúdos complexos.
+A metodologia "BEM" foi aplicada sob a orientação de Monica Hillman, que adotou uma abordagem "Mobile First", priorizando a usabilidade em dispositivos móveis. 
 
-Recursos principais:
-- **Flash Cards Interativos**: Os usuários podem girar os cards para ver o conteúdo na frente e no verso, com efeitos de rotação CSS.
-- **Organização Flexível**: Usamos flexbox para garantir que os elementos fiquem bem posicionados, independentemente do tamanho da tela.
-- **JavaScript Avançado**: A lógica por trás da interatividade foi desenvolvida em JavaScript, garantindo uma navegação fluida e intuitiva.
-- **Responsividade**: O layout foi projetado para funcionar bem em telas de diferentes tamanhos, de celulares a desktops.
+Foram revisados conceitos como flexbox, listas e âncoras, e criado um menu suspenso interativo com botão hamburger, tudo isso sem o uso de JavaScript. O menu foi estilizado com pseudo classes ":hover" e ":checked", e também implementamos campos de pesquisa com inputs e labels.
 
-Além disso, foi realizada a identificação de padrões no código para melhorar a legibilidade e resolver bugs.
+A instrutora também nos apresentou o <a target="_blank" href="https://swiperjs.com/">"SwiperJs"</a>, um framework de JavaScript ideal para apresentação em slides de forma moderna e estilizada, disponível em várias tecnologias como Angular, Vue, Solid, Svelte e React.
+
+Utilizamos "media-queries" para implementar layouts responsivos conforme o projeto desenvolvido no Figma:
+- Mobile (min-width: 428px);
+- Tablet (min-width: 1024px);
+- Desktop (min-width: 1728px).
+
+Adicionalmente, para adequar o projeto ao meu notebook de 15.6" com resolução HD, incluí um media-query (min-width: 1366px) com ajustes que se integraram bem ao design original.
+
+No final do curso, realizamos testes de usabilidade e responsividade em diferentes telas. Na folha de estilo "header.css", ajustei a classe ".lista__menu" com um "z-index: 2" para evitar sobreposição com o "pagination" do primeiro carrossel no mobile, eliminando bugs visuais.
+
+Para visualizar a versão atual do projeto, basta <a href="https://arura-books.vercel.app/#">clicar aqui</a>! 🚀
 
 ## 🔖 Layout
 
-🖼️ O layout do projeto foi desenvolvido no Figma e está disponível para visualização.<br>
+🖼️ O layout deste projeto foi desenvolvido pela Alura no Figma.
 
 ## :memo: Licença
 
-<p>Este projeto está sob a licença MIT.
-<br>
----
-
-Feito ❤️‍ por Guilherme 😁:wave:
-<br>🧑‍🚀<a href="https://silviosnjr.github.io/PaginaWeb-DesenvolvendoUmaFerramentaInterativaDeEstudo/">Clique aqui para acessar o projeto!</a>
+Este projeto está sob a licença MIT.
