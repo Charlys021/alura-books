@@ -1,7 +1,7 @@
-<h1 align="center"> Projeto Alura Books</h1>
+<h1 align="center"> Projeto Alura - Flash Cards Interativos</h1>
 
 <p align="center">
-Este é o 3º projeto desenvolvido que faz parte da Formação Front End da Platafroma Alura, apresentado por Guilherme Lima, Rafaella Ballerini e Monica Hillman.<br/>
+Este é um projeto desenvolvido para a plataforma Alura, focado no estudo interativo com flash cards. Apresentado por Guilherme, desenvolvedor com ampla experiência em diversas tecnologias e criador de mais de 30 cursos na Alura.<br/>
 </p>
 
 <p align="center">
@@ -11,57 +11,47 @@ Este é o 3º projeto desenvolvido que faz parte da Formação Front End da Plat
   <a href="#memo-licença">Licença</a>
 </p>
 
-
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
 
-  <div align="center">
-    <a target="_blank" href="https://robertojunnior.github.io/alura-books/">
-    <img width="90%" src="img/projeto-figma.png" alt="alura-books">
-    </a>
-  </div>
+<div align="center">
+  <a target="_blank" href="https://silviosnjr.github.io/PaginaWeb-DesenvolvendoUmaFerramentaInterativaDeEstudo/">
+    <img width="90%" src="img/flash-cards-preview.png" alt="Página interativa de estudo com flash cards">
+  </a>
+</div>
 
 <br>
-<br>
 
-<br>
-🧑‍🚀 A idéia deste projeto foi disponibilizada no curso de formação Front End "A partir do zero: Html, Css para projetos web", contendo 6 módulos e um total de 51 horas apresentado por Guilherme Lima, Rafaella Ballerini e Monica Hillman ❤️‍🔥.
+🧑‍🚀 Este projeto faz parte do curso Alura para Escolas, onde desenvolvemos uma página interativa de estudo utilizando flash cards para facilitar o aprendizado. A plataforma foi construída com foco em boas práticas de design e desenvolvimento web, aplicando fundamentos como flexbox, JavaScript avançado e responsividade.<br>
 
 ## 🚀 Tecnologias
 
-Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <li> HTML
-<li> CSS
-<li> Figma
-<li> Git and GitHub
-
+<li> CSS (com flexbox e animações)
+<li> JavaScript (interatividade dos flash cards)
+<li> Figma para o design
+<li> Git e GitHub
 
 ## 💻 Projeto
 
-Foi utilizado a metodologia "BEM" neste projeto aplicado pela Instrutora Monica Hillman, onde ela adotou a abordagem de construção do projeto como "Mobile First", que se entende por qualquer projeto web que leve em consideração a usabilidade em dispositivos móveis primeiro.
+O projeto foi desenvolvido para proporcionar uma experiência de estudo mais dinâmica e interativa utilizando flash cards, um método eficaz para reforçar o aprendizado de conteúdos complexos.
 
-Ela revisou alguns conceitos como flexbox, listas e ancoras, criou um menu suspenso interativo, com botão hamburguer sem o uso do JavaScript, algo que achei bem legal e ainda estilizamos com uso de pseudo classes ":hover" e ":checked", tendo o 1º contato também com combinadores tipo "~" no css. Também criamos campos de pesquisa com inputs e label.<br>
+Recursos principais:
+- **Flash Cards Interativos**: Os usuários podem girar os cards para ver o conteúdo na frente e no verso, com efeitos de rotação CSS.
+- **Organização Flexível**: Usamos flexbox para garantir que os elementos fiquem bem posicionados, independentemente do tamanho da tela.
+- **JavaScript Avançado**: A lógica por trás da interatividade foi desenvolvida em JavaScript, garantindo uma navegação fluida e intuitiva.
+- **Responsividade**: O layout foi projetado para funcionar bem em telas de diferentes tamanhos, de celulares a desktops.
 
-A Monica nos apresentou o <a target="_blank" href="https://swiperjs.com/">"SwiperJs"</a>, que é um framework de javascript criado e utilizado para a apresentação na forma de slides de uma forma moderna, estilizada e fácil de se implementar, disponível também em Angular, Vue, Solid, Svelte e React.<br>
-
-Também aplicamos o uso de "media-queries" para implementação dos layouts de responsividade conforme projeto desenvolvido no Figma para: <br>
-
-<li>Mobile (min-width; 428px); 
-<li>Tablet (min-widtth: 1024px);
-<li>Desktop (min-width: 1728px).<br>
-
-Como uma de minhas telas que utilizo é a do notebook de 15.6" com resolução HD, adaptei o código também para sua resolução com mais um media-querie screen (min-width: 1366px) com alguns ajustes adicionais, que se adapou perfeitamente ao projeto original.<br>
-
-Ao final do curso realizamos testes de usabilidade, responsividade multi telas e na folha de estilo "header.css", classe ".lista__menu", adicionei um "z-index: 2" devido ela estar aparecendo sob o "pagination" do primeiro carrossel no "Mobile", zerando qualquer "bug" visual no projeto.<br>
-
-<br>Para visualizar a versão atual do projeto é só<a href="https://robertojunnior.github.io/alura-books/"> "Clicar aqui".</a>🚀
+Além disso, foi realizada a identificação de padrões no código para melhorar a legibilidade e resolver bugs.
 
 ## 🔖 Layout
-🖼️ Este projeto no FIGMA foi desenvolvido por ALURA.<br>
+
+🖼️ O layout do projeto foi desenvolvido no Figma e está disponível para visualização.<br>
 
 ## :memo: Licença
 
@@ -69,11 +59,5 @@ Ao final do curso realizamos testes de usabilidade, responsividade multi telas e
 <br>
 ---
 
-Feito ❤️‍ by Roberto Junior 😁:wave: 
-<br>🧑‍🚀[Inscreva-se no canal do YouTube da Alura!](https://www.youtube.com/@Alura)
-
-    
-<h4> Obrigado por visitar meu Git e se chegou até aqui dê um "Follow" que retribuo, podemos nos conectar para trocas de ideias e novos projetos.
-  <br>
-  <br>
-<p> Até a próxima! 😁🖖.
+Feito ❤️‍ por Guilherme 😁:wave:
+<br>🧑‍🚀<a href="https://silviosnjr.github.io/PaginaWeb-DesenvolvendoUmaFerramentaInterativaDeEstudo/">Clique aqui para acessar o projeto!</a>
